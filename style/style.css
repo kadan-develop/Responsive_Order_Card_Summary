@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+
+  overflow: hidden;
+}
+
+/* BACKGROUND PATTERN */
+#background-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-size: center;
+  background-repeat: no-repeat;
+  background-position: cover cover;
+}
+
+/* MAIN CONTAINTER */
+
+#main-container {
+  margin: 8rem auto 0 auto;
+  background-color: #fff;
+  width: 450px;
+  height: 695px;
+  border-radius: 20px;
+  box-shadow: 6px 20px 30px -10px #c7d0f7;
+}
+
+.first-image {
+  border-radius: 20px 20px 0 0;
+}
+
+/* CONTENT WITH TEXT */
+
+#text-content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin: 2.2rem 0 20px 0;
+}
+
+.paragraph--1 {
+  line-height: 1.6;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: normal;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: hsl(224, 23%, 55%);
+}
+
+/* PLAN STYLE */
+
+.plan {
+  margin: 20px auto 30px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 95px;
+  width: 80%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  line-height: 1.6;
+}
+
+/* DIV of H2 and P */
+.which-plan {
+  margin-left: -5.5rem;
+}
+
+/* MUSIC ICON */
+.plan img {
+  margin-left: -30px;
+}
+
+h2 {
+  text-align: left;
+  color: hsl(223, 47%, 23%);
+  font-size: 1.05rem;
+  font-weight: 900;
+}
+
+.paragraph--2 {
+  color: hsl(224, 23%, 55%);
+}
+
+/* CHANGE LINK */
+.change-plan {
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 14px;
+  color: hsl(245, 75%, 52%);
+  margin-right: -30px;
+}
+
+.change-plan:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+/* BUTTON */
+
+#button {
+  font-family: inherit;
+  width: 80%;
+  background-color: hsl(245, 75%, 52%);
+  display: block;
+  margin: 0 auto 35px auto;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: -1px 20px 20px #dcd9f6;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: #766cf1;
+}
+/* LINK """CANCEL ORDER""""" */
+.proceedes a {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: hsl(224, 23%, 55%);
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.proceedes a:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+/* FOOTER */
+.attribution {
+  margin-top: 50px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+  #background-pattern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/pattern-background-mobile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center cover;
+  }
+
+  #main-container {
+    width: 330px;
+    height: 580px;
+    margin: 4rem auto 0 auto;
+  }
+
+  .first-image {
+    width: 330px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    margin-top: 1.8rem;
+  }
+
+  .which-plan {
+    margin-left: -3rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+  }
+
+  .which-plan p {
+    font-size: 14px;
+  }
+
+  .plan {
+    width: 85%;
+    height: 85px;
+  }
+
+  .plan img {
+    margin-left: -20px;
+  }
+
+  .change-plan {
+    margin-right: -20px;
+  }
+
+  #button {
+    width: 85%;
+    margin: 0 auto 25px auto;
+  }
+
+  .proceedes a {
+    font-size: 15px;
+  }
+
+  .attribution {
+    margin-top: 35px;
+  }
+}

@@ -7,8 +7,6 @@
 body {
   font-family: "Red Hat Display", sans-serif;
   background-color: hsl(225, 100%, 94%);
-
-  overflow: hidden;
 }
 
 /* BACKGROUND PATTERN */
@@ -160,7 +158,7 @@ h2 {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 418px) {
   #background-pattern {
     position: fixed;
     top: 0;

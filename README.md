@@ -20,4 +20,5 @@
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/kadan-develop)
+- Frontend Mentor - [@kadan-develop](https://www.frontendmentor.io/profile/kadan-develop)
+- Live Website - [@checkhere](https://sleepy-wilson-2246ff.netlify.app/)
